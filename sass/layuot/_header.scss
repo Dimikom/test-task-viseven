@@ -1,29 +1,24 @@
 .header {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 40px;
   border-bottom: 1px solid #828282;
   transform: matrix(1, 0, 0, 1, 0, 0);
   background-color: #fff;
-  // outline: 1px solid orange;
 }
 
 .header__list {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   min-width: 100%;
-  outline: 1px solid red;
   padding-bottom: 20px;
 }
 
 .header__item {
-  display: flex;
-  align-items: top;
+  position: relative;
   width: 90px;
   height: 30px;
-  outline: 1px solid teal;
+  cursor: pointer;
 
   &:last-child {
     width: 75px;
@@ -32,15 +27,28 @@
 }
 
 .header__link {
+  position: absolute;
+  top: -8px;
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--header-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--text-color);
+  }
+}
+
+.header__link-current {
+  position: absolute;
+  top: -8px;
   font-family: var(--text-font);
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.67;
   color: var(--text-color);
-  cursor: pointer;
-  &:hover,
-  &:focus {
-    color: var(--accent-text-color);
-  }
 }

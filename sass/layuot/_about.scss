@@ -1,0 +1,40 @@
+.about {
+  margin-top: 100px;
+  padding-bottom: 50px;
+  background: #f4f4f4;
+  outline: 1px solid teal;
+}
+
+.about__title {
+  text-align: center;
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.18;
+  color: var(--text-color);
+}
+
+.about__list {
+  display: flex;
+  justify-content: center;
+  margin-top: 46px;
+}
+
+.about__item {
+  width: 50%;
+}
+
+.about__item p {
+  padding-left: 44px;
+  padding-top: 115px;
+}
+
+.about__text {
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--text-color);
+}
