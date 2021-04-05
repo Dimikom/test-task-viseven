@@ -175,10 +175,12 @@ ol {
 }
 
 .about {
+  max-width: 1445px;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 100px;
   padding-bottom: 50px;
   background: #f4f4f4;
-  outline: 1px solid teal;
 }
 
 .about__title {
