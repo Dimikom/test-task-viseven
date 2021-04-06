@@ -1,0 +1,26 @@
+.contacts {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.contacts__title {
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.contacts__list {
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+  outline: 1px solid red;
+}
+
+.contacts__item:not(:first-child) {
+  display: block;
+  margin-left: 60px;
+}
