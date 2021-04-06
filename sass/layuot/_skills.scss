@@ -1,0 +1,74 @@
+.skills {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skills__title {
+  text-align: center;
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.18;
+  color: var(--text-color);
+}
+
+.skills__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.skills__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills__icon-ps {
+  background: radial-gradient(
+    75.99% 75.64% at 32.94% 22.44%,
+    rgba(52, 54, 78, 0.98) 0%,
+    #0c0824 100%
+  );
+}
+
+.skills__icon-ai {
+  background: radial-gradient(
+    76% 75.63% at 32.97% 22.44%,
+    rgba(66, 51, 37, 0.98) 0%,
+    #1c0a00 100%
+  );
+}
+
+.skills__icon-ae {
+  background: radial-gradient(
+    76% 75.63% at 32.97% 22.42%,
+    rgba(68, 47, 85, 0.98) 0%,
+    #12002c 100%
+  );
+}
+
+.skills__name {
+  font-family: var(--text-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  color: var(--header-text-color);
+  margin-top: 24px;
+}
+
+.skills__stars {
+  display: flex;
+}
+
+.skills__stars {
+  margin-top: 40px;
+}
+
+.skills__star:not(:first-child) {
+  margin-left: 9px;
+}
