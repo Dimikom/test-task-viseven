@@ -83,8 +83,7 @@ ol {
 
 .container {
   width: 945px;
-  margin-left: 250px auto;
-  margin-right: 250px auto;
+  margin: 0 auto;
 }
 
 .header {
